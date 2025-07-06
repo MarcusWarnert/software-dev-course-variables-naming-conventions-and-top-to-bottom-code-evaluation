@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let ageOfAlice = 15;
+let numberOfApples = 5;
+let colourOfApples = "Red";
+let priceOfApples = 20;
+let shoppingExcursion = name, + ageOfAlice, + " bought " + numberOfApples + colourOfApples + " apples for $" + priceOfApples + ".";
 
 console.log(d);
